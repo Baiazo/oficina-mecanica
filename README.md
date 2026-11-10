@@ -21,6 +21,22 @@ oficina mecânica com SQLite, no visual Frutiger Aero rubro-negro e com o
   preocupado). Tocar nele abre a sala dele, uma garagem onde ele respira, reage a
   toques na cabeça e na barriga, fala, comemora e cochila se ficar sozinho.
 
+## Baixar pronto
+
+Na aba [Releases](https://github.com/Baiazo/oficina-mecanica/releases) estão os
+arquivos para rodar sem instalar o Flutter:
+
+- `OficinaMecanica_Windows.zip`: extraia e abra `oficina_mecanica.exe`. O banco fica
+  em `%APPDATA%\OficinaMecanica\oficina.db`.
+- `OficinaMecanica.apk`: instalação direta no Android.
+
+## Apresentação
+
+`apresentacao/apresentacao.html` é a apresentação do trabalho: 17 slides num arquivo
+só, com imagens e fontes embutidas (funciona sem internet). Baixe o arquivo e abra no
+Chrome ou no Edge. Setas ou espaço mudam de slide, `N` mostra o roteiro de cada
+slide, `P` abre a janela do apresentador e `F` é tela cheia.
+
 ## Estrutura
 
 ```
@@ -33,6 +49,7 @@ lib/
   tema/                  visual Aero e memes
   assets/                imagens (dentro de lib para irem no .zip da entrega)
 test/                    testes do modelo, do humor e do CRUD
+apresentacao/            slides da apresentação (um HTML só, funciona offline)
 ```
 
 ## Como rodar
